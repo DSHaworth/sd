@@ -1,4 +1,4 @@
-# Sd
+# SD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
@@ -26,10 +26,59 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+------
+# Angular Commands
+
+https://angular.io/cli
+
+**New Component**
+
+    ng g c navbar --skipTests=true --module ../
+    ng g c sideNav --skipTests=true --module ../
+
+**New Services**
+
+    ng g s navbar --skipTests=true
+
+
+
+------
+
+# Create Additional Folders Under src/app
+
+* components
+* models
+* services
+* views
+
+## components
+
+* navbar
+* sideNav
+
+## models
+
+* ILogin.ts
+* INavItem.ts
+
+## views
+
+* about
+* home
+* landingPage
+* login
+
+------
+
+
 # Add Angular Material
 
     ng add @angular/material
 
-# Add Font Awesom
+# Add Font Awesome
 
     npm install --save @fortawesome/fontawesome-free
+
+# Add Flex Layout
+
+    npm i -s @angular/flex-layout @angular/cdk 
